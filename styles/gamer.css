@@ -1,0 +1,82 @@
+ header{
+   background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+ 
+ }
+   nav{ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ nav > ul , li {
+   display: flex;
+   list-style: none;
+   margin-right: 30px;
+   color: #3C354F;
+   font-weight: 500;
+   font-family: work sans;
+   font-size: 18px;
+ }
+ .img-frame{
+   width: 86.041px;
+height: 40px;
+flex-shrink: 0;
+ }
+ .nav-title{
+   text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+ .spnn-style{
+   color: red;
+ }
+ .banner{
+    
+ }
+ .banner-section{
+   color: #0B0223;
+
+   font-family: Work Sans;
+   font-size: 30px;
+ }
+ .banner-title{
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 40px;
+ }
+ .btn-primary{
+   display: inline-flex;
+padding: 10px 20px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+ }
+ .btn-secondary{
+   display: inline-flex;
+padding: 10px 20px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+ }
+ .img-site{
+  display: flex;
+  width: 511px;
+height: 300px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+ .img-part{
+  width: 521px;
+height: 310px;
+flex-shrink: 0;
+ }  
+ .challenge{
+   text-align: right;
+ }
+ 
