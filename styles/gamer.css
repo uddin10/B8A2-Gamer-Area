@@ -30,11 +30,11 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
  }
- .spnn-style{
+ .span-style{
    color: red;
  }
  .banner{
-    
+       
  }
  .banner-section{
    color: #0B0223;
@@ -66,7 +66,7 @@ border-radius: 48px;
 background: #4EC5F7;
  }
  .img-site{
-   
+  
   width: 511px;
 height: 300px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -107,7 +107,7 @@ text-align: center;
 font-family: Work Sans;
 font-size: 25px;
 font-style: normal;
-font-weight: 700;
+font-weight: 500;
 line-height: normal;
  }
  .team-span{
@@ -125,4 +125,41 @@ background-clip: text;
   border-radius: 12px;
   height: 300px;
   gap: 2px;
+ }
+ .Action-part{
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  width: 500px;
+height: 200px;
+flex-shrink: 0;
+ }
+ .group-content{
+   text-align: center;
+ }
+ .group-title{
+  display: inline-flex;
+   
+  padding: 10px;
+  align-items: flex-start;
+  gap: 60px;
+  color: #FFFFFF;
+ }
+ .triad-part{
+  background: white ;
+ }
+ .trying-part{
+  display: inline-flex;
+  text-align: center;
+  padding: 50px;
+  justify-content: space-between;
+ }
+ .learning-part{
+  color: red;
+  display: inline-flex;
+  text-align: center;
+ 
+  font-size: 16px;
+  font-weight: 500;
  }
